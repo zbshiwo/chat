@@ -1,0 +1,28 @@
+//
+   Created by 张博 on 2017/6/11.
+
+doctype html
+html
+    head
+        title a simple chat room!
+        link(rel='stylesheet', type='text/css', href='/public/css.css')
+        script(type='text/javascript', src='/public/jquery-3.2.1.js')
+        script(type='text/javascript', src='/public/index.js')
+        script(type='text/javascript', src='/socket.io/socket.io.js')
+
+    body
+        h1 Socket.IO聊天室
+        div#userinfo
+            |用户名:
+            input(type='text' placeholder='游客', id='username')
+            input(type='button', value='登录', id='login')
+            input(type='button', value='退出', id='logout', disabled='true')
+
+        div#divLeft
+            div#divChat
+            div#divContent
+                |对话：
+                textarea(id='Msg' rows='5' cols='255')
+                input(type='button' value='发送' id='post' disabled='true')
+        div#divRight
+            |用户列表：

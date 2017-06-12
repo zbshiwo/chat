@@ -1,0 +1,56 @@
+h1{
+    color: #006bb5;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 0px 0px 18px 0px;
+    border: 1px solid #f0f0f0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div#userinfo{
+    margin: 10px 0px 10px 0px;
+    padding: 3px;
+    background-color: #f0f0f0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div#divLeft{
+    width: 85%;
+    background-color: #f0f0f0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div#divChat{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 3px;
+    background-color: #f0f0f0;
+    height: 300px;
+}
+
+textarea{
+    width: 85%;
+}
+
+div#divRight{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 15%;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+}
+
+input[type='button']{
+    border: solid 1px #808080;
+    color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #81a0b5;
+    width: 100px;
+}
+
